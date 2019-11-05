@@ -12,6 +12,6 @@ int main(int argc, char **argv)
 	name[strlen(name)-1] = '\0\;
 	
 		
-	printf("Hello world!\n", name);
+	printf("Hello world, !\n", name);
 	return 0;
 }
