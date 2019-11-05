@@ -8,6 +8,7 @@ int main(int argc, char **argv)
 	printf("Enter your name: ");
 	fgets(name, 255, stdin);
 	
+	printf("length = %d\n", strlen(name));
 	name[strlen(name)-1] = '\0\;
 	
 		
